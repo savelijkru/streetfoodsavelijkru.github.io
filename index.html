@@ -1,278 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body class="p-3 m-0 border-0 bd-example m-0 border-0">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="static/styles/style.css">
-  <link rel="stylesheet" href="static/styles/video.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="static/files/favicon_io/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="static/files/favicon_io/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="static/files/favicon_io/favicon-16x16.png">
-  <link rel="manifest" href="static/files/favicon_io/site.webmanifest">
-  <title>StreetFood</title>
-</head>
+    <!-- Example Code -->
+    <div class="alert alert-dark" role="alert"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      Состояние: Функционирует
+    </font></font></div> 
 
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/"><img src="static/images/logo_pizza.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Главная</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="price.html">Прайс</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="contacts.html">Контакты</a>
-            </li>
-            <li class="nav-item">
-              <a href="#"><img style="width: 30px; margin-inline: 1em;" src="static/images/VK.png" alt="vk"></a>
-            </li>
-            <li class="nav-item">
-              <a href="#"><img style="width: 30px; margin-inline: 1em;" src="static/images/telegram.png" alt="tg"></a>
-            </li>
-            <li class="nav-item">
-              <a href="#"><img style="width: 30px; margin-inline: 1em;" src="static/images/whatsapp.png" alt="wap"></a>
-            </li>
-            <li class="nav-item">
-              <a href="#"><img style="width: 30px; margin-inline: 1em;" src="static/images/YouTube.png"
-                  alt="YouTube"></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <section>
-    <div class="bg-video">
-      <video src="static/images/fire.mp4" type="video/mp4" autoplay muted loop></video>
-      <div class="effect"></div>
-      <div class="video-text">
-        <h1>Best Street Food</h1>
-      </div>
-    </div>
-    <div class="container-fluid m-4">
-      <div class="row">
-        <div class="col-lg-1">
 
-        </div>
-        <div class="col-lg-8 col-md-12">
-          <div class="row">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                  aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                  aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                  aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                  aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                  aria-label="Slide 5"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
-                  aria-label="Slide 6"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
-                  aria-label="Slide 7"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
-                  aria-label="Slide 8"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
-                  aria-label="Slide 9"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="d-block w-100">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6">
-                        <img src="static/images/Pizza.jpg" class="w-100" alt="...">
-                      </div>
-                      <div class="col-lg-6 col-md-6 slide-text">
-                        <p>Мы работаем в Египте! <a href="https://www.google.ru/maps/place/El+Medan+Restaurant/@27.1823734,31.180915,15.42z/data=!4m15!1m8!3m7!1s0x14368976c35c36e9:0x2c45a00925c4c444!2z0JXQs9C40L_QtdGC!3b1!8m2!3d26.820553!4d30.802498!16zL20vMDJrNTQ!3m5!1s0x14450bccd39308c7:0x48af708de8feab20!8m2!3d27.1825443!4d31.1772963!16s%2Fg%2F11gjhjq0zz?entry=ttu">Узнать больше>>></a></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-block w-100">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6">
-                        <img src="static/images/burger.avif" class="w-100" alt="">
-                      </div>
-                      <div class="col-lg-6 col-md-6 slide-text">
-                        <p>Мы работаем в Египте! <a href="https://www.google.ru/maps/place/El+Medan+Restaurant/@27.1823734,31.180915,15.42z/data=!4m15!1m8!3m7!1s0x14368976c35c36e9:0x2c45a00925c4c444!2z0JXQs9C40L_QtdGC!3b1!8m2!3d26.820553!4d30.802498!16zL20vMDJrNTQ!3m5!1s0x14450bccd39308c7:0x48af708de8feab20!8m2!3d27.1825443!4d31.1772963!16s%2Fg%2F11gjhjq0zz?entry=ttu">Узнать больше>>></a></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-block w-100">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6">
-                        <img src="static/images/shurma.jpg" class="w-100" alt="">
-                      </div>
-                      <div class="col-lg-6 col-md-6 slide-text">
-                        <p>Вкусные блюда на заказ</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-block w-100">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6">
-                        <img src="static/images/Pizza2.png" class="w-100" alt="">
-                      </div>
-                      <div class="col-lg-6 col-md-6 slide-text">
-                        <p>Любые шеф повара</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-block w-100">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6">
-                        <img src="static/images/burger2.jpg" class="w-100" alt="">
-                      </div>
-                      <div class="col-lg-6 col-md-6 slide-text">
-                        <p>Бургеры </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-block w-100">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6">
-                        <img src="static/images/shaverma.jpeg" class="w-100" alt="">
-                      </div>
-                      <div class="col-lg-6 col-md-6 slide-text">
-                        <p>Шаверма</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-block w-100">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6">
-                        <img src="static/images/Pizza3.jpg" class="w-100" alt="">
-                      </div>
-                      <div class="col-lg-6 col-md-6 slide-text">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam doloremque maiores laudantium
-                          minima recusandae tempore ipsum molestiae magnam aliquid, fugiat repudiandae? Saepe numquam
-                          nisi, nam autem optio eaque doloremque rem?</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-block w-100">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6">
-                        <img src="static/images/burger3.jpg" class="w-100" alt="">
-                      </div>
-                      <div class="col-lg-6 col-md-6 slide-text">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam doloremque maiores laudantium
-                          minima recusandae tempore ipsum molestiae magnam aliquid, fugiat repudiandae? Saepe numquam
-                          nisi, nam autem optio eaque doloremque rem?</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-block w-100">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6">
-                        <img src="static/images/pita.jpeg" class="w-100" alt="">
-                      </div>
-                      <div class="col-lg-6 col-md-6 slide-text">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam doloremque maiores laudantium
-                          minima recusandae tempore ipsum molestiae magnam aliquid, fugiat repudiandae? Saepe numquam
-                          nisi, nam autem optio eaque doloremque rem?</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-            <div class="col-lg-12 col-md-12 mt-4 text-center">
-              <button type="button" class="btn btn-outline-primary btn-lg my-4">Узнать больше</button>
-            </div>
-            <div class="col-lg-12 col-md-12 text-center mt-4">
-              <p>Мы можем вам помочь?</p>
-            </div>
-            <div class="col-lg-12 col-md-12 text-center mt-4">
-              <img style="width: 40px;" src="static/images/phone.png" class="phone-anime" alt="phone">
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-12">
-          <div class="row px-2">
-            <div class="col-lg-12 nav-right my-4">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus est nulla dicta perferendis ut
-                assumenda, quisquam modi itaque illo, eum neque perspiciatis dolor laudantium accusamus temporibus
-                eligendi adipisci corporis iusto. <a href="#">Узнать больше>>></a></p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus est nulla dicta perferendis ut
-                assumenda, quisquam modi itaque illo, eum neque perspiciatis dolor laudantium accusamus temporibus
-                eligendi adipisci corporis iusto. <a href="#">Узнать больше>>></a></p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus est nulla dicta perferendis ut
-                assumenda, quisquam modi itaque illo, eum neque perspiciatis dolor laudantium accusamus temporibus
-                eligendi adipisci corporis iusto. <a href="#">Узнать больше>>></a></p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus est nulla dicta perferendis ut
-                assumenda, quisquam modi itaque illo, eum neque perspiciatis dolor laudantium accusamus temporibus
-                eligendi adipisci corporis iusto. <a href="#">Узнать больше>>></a></p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus est nulla dicta perferendis ut
-                assumenda, quisquam modi itaque illo, eum neque perspiciatis dolor laudantium accusamus temporibus
-                eligendi adipisci corporis iusto. <a href="#">Узнать больше>>></a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-4 col-md-12 footer-text text-center">
-          <p>Все права защищены 2023 г.</p>
-        </div>
-        <div class="col-lg-4 col-md-12 footer-text text-center">
-          <p>Контакты<br>Работа<br>Наша команда</p>
-        </div>
-        <div class="col-lg-4 col-md-12 icons">
-          <a href="#"><img style="width: 40px; margin: 1em;" src="static/images/VK.png" alt="vk"></a>
-          <a href="#"><img style="width: 40px; margin: 1em;" src="static/images/telegram.png" alt="tg"></a>
-          <a href="#"><img style="width: 40px; margin: 1em;" src="static/images/whatsapp.png" alt="wap"></a>
-          <a href="#"><img style="width: 40px; margin: 1em;" src="static/images/YouTube.png" alt="YouTube"></a>
-        </div>
-      </div>
-    </div>
-  </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-</body>
 
+
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+   О сервере
+  </button>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+Рейды, Краши, Боты, и софт? Это всё о «СРС»
+Древнейший Сервер Дискорда, целью объединить все такие же сервера, с похожей тематикой. Даже если вы не рейдер и не крашер. Вы можете стать отличным помощником «СРС».
+У нас присутствуею свои Краш-боты, Деаноны, и продвижение по карьерной лестнице.
+Вступай в армию «СРС»
+На данный момент, это четвёртый СРС
+  </div>
+</div>
+
+
+
+
+<iframe src="https://discord.com/widget?id=1163580820238377033&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
+
+    <div class="alert alert-dark" role="alert"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      Новое видео
+    </font></font></div> 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rc-ReZqEmUA?si=rFIzuuzYkxOFa78E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!-- End Example Code -->
+  </body>
 </html>
